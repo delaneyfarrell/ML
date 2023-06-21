@@ -1,10 +1,9 @@
-# my code-along for the xor_donut (nonlinear classifiers) file.
+# xor_donut (nonlinear classifiers) 
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 # for both XR and donut problem, its binary classification
-# so not using softmax
 
 # define the forward action of the network
 def forward(X, W1, b1, W2, b2):
@@ -53,7 +52,7 @@ def cost(T, Y):
 
 # XOR
 def test_xor():
-    # XOR data (see written problem)
+    # XOR data 
     X = np.array([[0,0], [0,1], [1,0], [1,1]])
     Y = np.array([0, 1, 1, 0])
     # random weights to start
