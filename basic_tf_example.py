@@ -2,8 +2,8 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 
-# trying to replicate the same problems as before (3 Gaussian clouds i.e. classes)
-# but instead solve with TF
+# problem: 3 Gaussian clouds i.e. classes
+# solve with TF
 
 # create random training data again
 Nclass = 500
