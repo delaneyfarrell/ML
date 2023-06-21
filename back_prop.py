@@ -1,4 +1,4 @@
-# my code-along for the backpropagation file.
+# back propagation
 
 import numpy as np
 import matplotlib.pyplot as plt
