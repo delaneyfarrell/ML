@@ -1,3 +1,7 @@
+# using reinforcement learning to make a stock trading algorithm
+# uses data from "aapl_msi_sbox.csv", which contains timeseries data of stock prices for 3 stocks:
+# Apple, Motorola, and Starbucks
+
 # imports
 import numpy as np
 import pandas as pd
